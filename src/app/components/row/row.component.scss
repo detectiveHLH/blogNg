@@ -1,0 +1,11 @@
+.row {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.row:before, .row:after {
+  content: '';
+  display: table;
+  clear: both;
+}

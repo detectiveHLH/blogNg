@@ -7,8 +7,10 @@ import {AppComponent} from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
-import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { NavComponent } from './components/nav/nav.component';
+import { RowComponent } from './components/row/row.component';
+import { ColComponent } from './components/col/col.component';
 
 const appRoutes: Routes = [{
   path: 'test',
@@ -25,8 +27,10 @@ const appRoutes: Routes = [{
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NavComponent,
+    RowComponent,
+    ColComponent
   ],
   imports: [
     RouterModule.forRoot(
